@@ -1,0 +1,67 @@
+.navbar {
+  background-color: #444346;
+  opacity: 0.7;
+  border-bottom: 3px solid tomato;
+  span {
+    color: tomato;
+    font-weight: bold;
+  }
+}
+#home-section {
+  background-image: url(../img/home-sec.jpg);
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+
+  .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 700px;
+  }
+  .home-inner {
+    padding-top: 150px;
+  }
+  .fa {
+    background-color: #fff;
+    color: tomato;
+    font-size: large;
+  }
+  .form-edit {
+    background-color: tomato;
+    opacity: 0.7;
+  }
+}
+
+#explore-section {
+  background-color: #333333;
+  color: #fff;
+}
+#main-explore-section,
+#main-share-section {
+  .fa {
+    background-color: tomato;
+    color: #fff;
+    font-size: large;
+  }
+}
+#create-section,
+#share-section {
+  background-color: tomato;
+  color: white;
+}
+#main-create-section {
+  background-color: #333333;
+  color: #fff;
+  .fa {
+    background-color: #fff;
+    color: tomato;
+  }
+}
+
+@media (max-width: 576px) {
+  #home-section h1 {
+    font-size: 36px;
+  }
+}
